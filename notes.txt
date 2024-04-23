@@ -1,0 +1,21 @@
+required 
+
+
+firstName 
+
+email 
+
+annotation 
+
+
+1) hibernate-validator.jar  maven 
+2) UserBena @NotBlank - message="Please Enter firsTName" 
+3) use spring form in jsp  -> jsp taglib 
+4) from input type , s:form with modelAttribute ,s:input ,s:password  name is replace path in input 
+5) Controller -> @ModelAttribute("user") @Valid UserBean user,BindingResult result 
+6) send blank object in jsp 
+		model.addATtribute("user",new UserBean());
+		
+
+ 
+
